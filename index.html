@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Featured Objects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .title {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+        }
+        .item:last-child {
+            border-bottom: none;
+        }
+        .item img {
+            max-width: 150px;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+        .item-details {
+            flex: 1;
+        }
+        .item-details h2 {
+            margin: 0 0 10px;
+            color: #555;
+        }
+        .item-details p {
+            margin: 0;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Featured Objects</h1>
+        <div class="item">
+            <img src="https://via.placeholder.com/150" alt="Object 1">
+            <div class="item-details">
+                <h2>Object 1</h2>
+                <p>Description for the first object. It's really fascinating and worth your attention.</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="https://via.placeholder.com/150" alt="Object 2">
+            <div class="item-details">
+                <h2>Object 2</h2>
+                <p>Description for the second object. This one has an interesting backstory.</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="https://via.placeholder.com/150" alt="Object 3">
+            <div class="item-details">
+                <h2>Object 3</h2>
+                <p>Description for the third object. You won't believe how cool this is.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
